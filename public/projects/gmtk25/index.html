@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+  <title>John's Website</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="bg-blue-1">
+	<div class="sidebar bg-blue-2 spaced hover-border">
+		<div class="user-card bg-blue-4 spaced hover-border">
+			<img src="/images/profile.png" class="profile-picture"/>
+			<!-- <p class="text-1">Card here ......................</p> -->
+			<div class="personal-details">
+				<p class="text-1 my-name">John Good</p>
+				<p class="text-3">he/him</p>
+			</div>
+			<!-- <p>johngood2718@gmail.com</p> -->
+			<br>
+			<div class="account-link-parent">
+				<a href="https://github.com/Anonyyymous"><img class="account-link" src="/images/github.svg"/></a>
+				<a href="https://anonyym0us.itch.io/"><img class="account-link" src="/images/itch.svg"/></a>
+				<a href="https://www.linkedin.com/in/john-good-937063264/"><img class="account-link" src="/images/linkedin.svg"/></a>
+			</div>
+		</div>
+		<p><a href="/" class="site-link bg-blue-6">Index</a></p>
+		<p><a href="/projects/" class="site-link bg-blue-6">Projects</a></p>
+		<p><a href="/about/" class="site-link bg-blue-6">About me</a></p>
+		<p><a href="/experience/" class="site-link bg-blue-6">My experience</a></p>
+	</div>
+	<section class="section main bg-blue-2 spaced hover-border">
+		<div class="container">
+			
+<div class="project-page-container">
+    <div>
+        <h1 class="project-title">GMTK25 - Loops</h1>
+        <p><h2 id="the-premise">The Premise</h2>
+<p>The theme for the 4-day GMTK25 game jam was one simple word - Loops.
+In a mix of my own curiosity, and preparaton for a university module I would be taking the next year, I endeavored to learn I needed about Godot and gdscript - while the jam was going.</p>
+<p>A questionable choice, and one that led to a lot of intentionally this-is-such-an-awful-way-of-doing-this-but-it-just-needs-to-work decisions, more than usual in a game jam.</p>
+<p>The game idea had to be kept relatively simple, so I teamed up with the same artist friend as in GMTK24, and we set out to create something once again a little silly.
+We arrived at the idea of a vampire survivors clone, where the player projectiles <strong>loop</strong>ed. We agreed that the idea of a magical girl, who's attack animations are just vogue-like poses, fighting eldrich horrors beyond our comprehension would be both fun for her to draw, and for me to bang my head against when the bugs reared their ugly heads.</p>
+<p>Overall, it was definitely an interesting way to get to grips with Godot, so I can't say I regret it.</p>
+<h2 id="gameplay">Gameplay</h2>
+<p>I haven't played vampire survivors, so I can't really comment on how close we got - though one not-at-all-biased comment on the itch page suggests that we far surpassed the original.</p>
+<p>At the end of each wave of enemies, the player can get a new weapon. Each weapon has its own trajectory (either a &lt;9 sided polygon, a line, or a circle), damage, speed, and recharge time. Additionally, weapons can have extra features, such as destroying enemy projectiles, or being cast over your cursor, instead of originating from the player.</p>
+<p>When a weapon is 'cast', the projectile enacts it's trajectory. The distance of the player's cursor can be used to decrease the range of the weapon, making aiming a little easier. This also decreases the cooldown, though this means some high-damage weapons can be spammed at close range, and if one of them happens to destroy enemy projectiles on hit, gg you win.</p>
+</p>
+    </div>
+    <div>
+        <img class="project-image" src="/images/magical-girl-vs-the-horros.png" alt="gmtk25-game-jam-alt">
+        <a href="https://anonyym0us.itch.io/magical-girl-vs-the-horrors" class="project-link text-3">Link here</a>
+    </div>
+
+</div>
+<!-- <p class="subtitle"><strong></strong></p> -->
+
+		</div>
+	</section>
+</body>
+
+</html>
