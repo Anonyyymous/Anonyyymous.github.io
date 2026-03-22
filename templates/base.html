@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+  <title>John's Website</title>
+	<link rel="stylesheet" href="{{ get_url(path="css/style.css") }}">
+</head>
+
+<body class="bg-blue-1">
+	<div class="sidebar bg-blue-2 spaced hover-border">
+		<div class="user-card bg-blue-4 spaced hover-border">
+			<img src="{{ get_url(path="images/profile.png") }}" class="profile-picture"/>
+			<!-- <p class="text-1">Card here ......................</p> -->
+			<div class="personal-details">
+				<p class="text-1 my-name">John Good</p>
+				<p class="text-3">he/him</p>
+			</div>
+			<!-- <p>johngood2718@gmail.com</p> -->
+			<br>
+			<div class="account-link-parent">
+				<a href="https://github.com/Anonyyymous"><img class="account-link" src="{{ get_url(path="images/github.svg") }}"/></a>
+				<a href="https://anonyym0us.itch.io/"><img class="account-link" src="{{ get_url(path="images/itch.svg") }}"/></a>
+				<a href="https://www.linkedin.com/in/john-good-937063264/"><img class="account-link" src="{{ get_url(path="images/linkedin.svg") }}"/></a>
+			</div>
+		</div>
+		<p><a href="/" class="site-link bg-blue-6">Index</a></p>
+		<p><a href="{{ get_url(path='@/projects/_index.md') }}" class="site-link bg-blue-6">Projects</a></p>
+		<p><a href="{{ get_url(path='@/about/_index.md') }}" class="site-link bg-blue-6">About me</a></p>
+		<p><a href="{{ get_url(path='@/experience/_index.md') }}" class="site-link bg-blue-6">My experience</a></p>
+	</div>
+	<section class="section main bg-blue-2 spaced hover-border">
+		<div class="container">
+			{% block content %} {% endblock content %}
+		</div>
+	</section>
+</body>
+
+</html>

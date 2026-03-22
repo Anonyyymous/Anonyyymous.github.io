@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">Index</h1>
+<h3>Hi there!</h3>
+<p>If you want to see some of my marvellous creations, why not check out <a href="{{ get_url(path='@/projects/_index.md') }}" class="text-1 ul">my project list?</a></p>
+<p>If you just want to get to know me better, have a read through <a href="{{ get_url(path='@/about/_index.md') }}" class="text-1 ul">this</a>!</p>
+<p>Want to hear my mad ramblings? I think the <a href="{{ get_url(path='@/experience/_index.md') }}" class="text-1 ul">experiences</a> page has everything you could ever want!</p>
+
+{% endblock content %}

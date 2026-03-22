@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<h1>Experience</h1>
+<h2>Uni modules</h2>
+<p>At uni, the notable modules I took where - </p>
+<ul>
+    <li>CS132 - Computer Organisation and Architecture</li>
+    <ul>
+        <li>Logic gates</li>
+        <li>Core CPU components</li>
+        <li>Methods of optimisation</li>
+        <li>Understanding assembly</li>
+    </ul>
+    <li>CS140 - Computer Security (optional)</li>
+    <ul>
+        <li>Threat analysis</li>
+        <li>Public vs private key encryption/cracking methods</li>
+        <li>Core security algorithms - DES, AES, RSA</li>
+        <li>Methods of verification</li>
+        <li>Security issues in networks and web servers</li>
+    </ul>
+    <li>CS141 - Functional Programming (Haskell) (optional)</li>
+    <ul>
+        <li>Design/reasoning of the language</li>
+        <li>This one doesnt really suit itself to a list of topics, we just learnt haskell</li>
+        <li>If you love maths you'll love haskell, otherwise I think its got some nice features</li>
+    </ul>
+</ul>
+<p>Other modules taken that year were - </p>
+<ul>
+    <li>CS118 - Programming for Computer Scientists (just java)</li>
+    <li>CS126 - Design of Data Structures</li>
+    <li>CS130 - Mathematics for Computer Scientists 1</li>
+    <li>CS131 - Mathematics for Computer Scientists 2</li>
+    <li>CS133 - Professional Skills</li>
+    </ul>
+<h2>Language reviews</h2>
+<p>All rows are out of 10</p>
+<div class="language-table bg-blue-3">
+    <table class="bg-blue-4">
+        <tr class="bg-blue-6">
+            <th>Language</th>
+            <th>Experience*</th>
+            <th>Enjoyment</th>
+            <th>Syntax**</th>
+            <th>How nice it looks</th>
+            <th>Novelty</th>
+            <th>Overall score</th>
+            <th>Notes</th>
+        </tr>
+        <tr> 
+            <td>C</td>
+            <td>5</td>
+            <td>7</td>
+            <td>8</td>
+            <td>7</td>
+            <td>8</td>
+            <td>7</td>
+            <td></td>
+        </tr>
+        <tr> 
+            <td>C++</td>
+            <td>6</td>
+            <td>7</td>
+            <td>7</td>
+            <td>5</td>
+            <td>9</td>
+            <td>8</td>
+            <td>Not a fan of the :: everywhere</td>
+        </tr>
+        <tr> 
+            <td>C#</td>
+            <td>8</td>
+            <td>9</td>
+            <td>9</td>
+            <td>9</td>
+            <td>7</td>
+            <td>9</td>
+            <td>Possibly my goto high-level language</td>
+        </tr>
+        <tr> 
+            <td>Java</td>
+            <td>7</td>
+            <td>4</td>
+            <td>6</td>
+            <td>4</td>
+            <td>3</td>
+            <td>1</td>
+            <td>Just worse C#, not everything needs to be an object</td>
+        </tr>
+        <tr> 
+            <td>GDscript</td>
+            <td>8</td>
+            <td>7</td>
+            <td>6</td>
+            <td>5</td>
+            <td>7</td>
+            <td>6</td>
+            <td>
+                <p>Treating godot components/APIs as packages for the experience category, though its still not that deep.</p>
+                <p>Mainly learnt through GMTK25</p>
+            </td>
+        </tr>
+        <tr> 
+            <td>Python</td>
+            <td>7</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>7</td>
+            <td>6</td>
+            <td></td>
+        </tr>
+        <tr> 
+            <td>Haskell</td>
+            <td>7</td>
+            <td>7</td>
+            <td>8</td>
+            <td>6</td>
+            <td>10</td>
+            <td>7</td>
+            <td></td>
+        </tr>
+        <tr> 
+            <td>Javascript</td>
+            <td>7</td>
+            <td>6</td>
+            <td>3</td>
+            <td>5</td>
+            <td>3</td>
+            <td>5</td>
+            <td>The depths of the javascript tomfuckery rabbithole know no bounds</td>
+        </tr>
+    </table> 
+</div>
+<br>
+<p>*To clarify experience, a 5 means im fairly familiar with the syntax/language patterns, and have used a variety of packages/imports (if applicable) - I could solve leetcodes in the language comfortably</p>
+<p>A 7 means I have used a large variety of different relevant imports (ie package for sockets, APIs, hosting)</p>
+<p>A 9 means I could probably (try to) solve any problem in the langauge with my given knowledge/experience of packages. Wether that problem should be solved in this language is a different question</p>
+<br>
+<p>**Syntax refers to how much sense it makes</p>
+
+{% endblock content %}

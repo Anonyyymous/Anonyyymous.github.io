@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+<div class="project-grid bg-blue-4">
+  {% for page in section.pages %}
+    <a href="{{ page.permalink | safe }}" class="project-card bg-blue-5 hover-border">
+      <img class="project-image" src="{{ get_url(path=page.extra.image_url) }}" alt="{{ page.extra.image_alt }}">
+      <div class="project-details bg-blue-6">
+        <div class="personal-details">
+          <h3 class="project-title">{{ page.title }}</h3>
+          <h3 class="text-2">{{ page.extra.status }}</h3>
+        </div>
+        <p class="project-description">{{ page.description }}</p>
+        <div class="project-tech">
+          <p class="text-3 project-language">{{ page.extra.languages }}</p>
+          <p class="text-3 project-technologies">{{ page.extra.technologies }}</p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+
+{% endblock content %}
