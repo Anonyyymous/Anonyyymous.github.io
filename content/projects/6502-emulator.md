@@ -5,9 +5,6 @@ description = "A simple emulator for a 6502 chip"
 status = "Development"
 languages = "C++"
 technologies = "CMake"
-image_url = "images/i.png"
-image_alt = "6502-emulator-alt"
-link = ""
 +++
 
 An attempt at a 6502 emulator, to solidify my knowledge of how a CPU works.

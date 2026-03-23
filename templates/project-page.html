@@ -7,8 +7,13 @@
         <p>{{ page.content | safe }}</p>
     </div>
     <div>
-        <img class="project-image" src="{{ get_url(path=page.extra.image_url) }}" alt="{{ page.extra.image_alt }}">
-        <a href="{{ page.extra.link | safe }}" class="project-link text-3">Link here</a>
+        {% if page.extra.image_url is defined and page.extra.image_url != "" %}
+            <img class="project-image" src="{{ get_url(path=page.extra.image_url) }}" alt="{{ page.extra.image_alt }}">
+        {% endif %}
+
+        {% if page.extra.link is defined and page.extra.link != "" %}
+            <a href="{{ page.extra.link }}" class="project-link text-3">Link here</a>
+        {% endif %}
     </div>
 
 </div>

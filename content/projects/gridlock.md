@@ -1,13 +1,12 @@
 +++
 title = "CS141 coursework 2 - Gridlock"
-description = "My submission for my module CS141 - coursework 2"
+description = "My submission for my module CS141 Functional Programming - coursework 2"
 [extra]
 status = ""
 languages = "Haskell"
 technologies = ""
 image_url = "images/gridlock.png"
 image_alt = "gridlock-alt"
-link = ""
 +++
 The second coursework for my module CS141 - Functional Programming, involved a custom game created by the lecturer, and making a parser for specifically formatted records of that game, stored in text files.
 

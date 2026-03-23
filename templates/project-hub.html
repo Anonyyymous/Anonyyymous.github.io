@@ -7,7 +7,9 @@
 <div class="project-grid bg-blue-4">
   {% for page in section.pages %}
     <a href="{{ page.permalink | safe }}" class="project-card bg-blue-5 hover-border">
-      <img class="project-image" src="{{ get_url(path=page.extra.image_url) }}" alt="{{ page.extra.image_alt }}">
+      {% if page.extra.image_url is defined and page.extra.image_url != "" %}
+        <img class="project-image" src="{{ get_url(path=page.extra.image_url) }}" alt="{{ page.extra.image_alt }}">
+      {% endif %}
       <div class="project-details bg-blue-6">
         <div class="personal-details">
           <h3 class="project-title">{{ page.title }}</h3>
