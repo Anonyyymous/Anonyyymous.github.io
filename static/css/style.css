@@ -77,20 +77,23 @@
 
 }
 
-.sidenav {
-    display: flex;
+.sidebar {
     height: 100%;
-    position: fixed !important;
-    overflow-y: auto;
-    z-index: 1;
-    margin: 0.25rem;
-    margin-top: 1rem;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 16rem;
 }
 
+.account-image {
+    width: 100%;
+    height: 100%;
+}
 .account-link {
-    width: 2rem;
-    height: 1vw;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .account-link-parent {
@@ -129,13 +132,13 @@ body {
 }
 
 .profile-picture {
-    width: 10rem;
-    height: 10rem;
     border-radius: 1rem;
+    width: 100%;
 }
 
 .user-card {
-    width: 10rem;
+    box-sizing: border-box;
+    width: 12rem;
 }
 
 .personal-details {
@@ -237,4 +240,5 @@ a {
     font-weight: bolder;
     /* max-width: 100%; */
     margin-top: 100%;
+    margin-bottom: 0%;
 }
