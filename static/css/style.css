@@ -82,7 +82,9 @@
     overflow-y: scroll;
     box-sizing: border-box;
     overflow-x: hidden;
-    width: 16rem;
+    min-width: 14rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .account-image {
@@ -231,6 +233,11 @@ a {
     color: limegreen;
 }
 
+.copyright-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 .copyright {
     margin-left: 0rem;
     color: hwb(0 95% 5%);
@@ -239,6 +246,8 @@ a {
     display: flex;
     font-weight: bolder;
     /* max-width: 100%; */
-    margin-top: 100%;
+    margin-top: auto;
     margin-bottom: 0%;
+    overflow-y: auto;
+    min-height: 0;
 }
