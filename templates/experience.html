@@ -3,7 +3,29 @@
 
 {% block content %}
 <h1>Experience</h1>
-<h2>Uni modules</h2>
+<h2>Work</h2>
+I spent the summer of '26 working at <a href="https://www.netcraft.com/">netcraft</a> in their <i>Security</i> team.
+This involved working on internal security tooling, usually being ran as cron jobs, systemd services or as
+permenant kubernetes deployments on their AWS estate.
+
+Some notable things I planned and deployed were:
+<ul>
+    <li>A pastebin replacement</li>
+    <li>Access rights/review interface</li>
+    <li>Regular scans of company repositories to check for outdated packages effected by CVEs</li>
+    <li>Mapping CVEs to RHEL kernel modules via the kernel Makefiles and program files</li>
+</ul>
+
+This used tools like:
+<ul>
+    <li>AWS (Lambda, S3, IAM/policy writing, Aurora, Dynamo, EKS, VPC)</li>
+    <li>Kubernetes (Gateway, KEDA)</li>
+    <li>RabbitMQ</li>
+    <li>RPM</li>
+    <li>Gitlab CI/CD</li>
+    <li>Systemd</li>
+</ul>
+<h2>Uni</h2>
 <p>At uni, the notable modules I took where - </p>
 <ul>
     <li>CS132 - Computer Organisation and Architecture</li>
@@ -91,7 +113,7 @@
         </tr>
         <tr> 
             <td>C#</td>
-            <td>8</td>
+            <td>7</td>
             <td>9</td>
             <td>9</td>
             <td>9</td>
@@ -101,7 +123,7 @@
         </tr>
         <tr> 
             <td>Java</td>
-            <td>7</td>
+            <td>6</td>
             <td>4</td>
             <td>6</td>
             <td>4</td>
@@ -150,28 +172,39 @@
             <td>5</td>
             <td>3</td>
             <td>5</td>
-            <td>The depths of the javascript tomfuckery rabbithole know no bounds</td>
+            <td>The depths of the javascript tomfoolery rabbithole know no bounds. I also have an irrational hatred for this langauge, and by extensions, Typescript.</td>
         </tr>
-        <!-- <tr>  -->
-        <!--     <td>Rust</td> -->
-        <!--     <td>4</td> -->
-        <!--     <td>6</td> -->
-        <!--     <td>7</td> -->
-        <!--     <td>2</td> -->
-        <!--     <td>8</td> -->
-        <!--     <td>6</td> -->
-        <!--     <td>Lovely error handling, but it does look quite fugly</td> -->
-        <!-- </tr> -->
-        <!-- <tr> -->
-        <!--     <td>Go</td> -->
-        <!--     <td>5</td> -->
-        <!--     <td>8</td> -->
-        <!--     <td>10</td> -->
-        <!--     <td>8</td> -->
-        <!--     <td>5</td> -->
-        <!--     <td>9</td> -->
-        <!--     <td>Even if it looks a bit basic, its got some nice packages</td> -->
-        <!-- </tr> -->
+        <tr>
+            <td>Rust</td>
+            <td>4</td>
+            <td>7</td>
+            <td>9</td>
+            <td>2</td>
+            <td>8</td>
+            <td>7</td>
+            <td>Very nice error handling/shorthands. Lovely macros. It does look quite ugly though </3</td>
+        </tr>
+        <tr>
+            <td>Perl</td>
+            <td>5</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>5</td>
+            <td>3</td>
+            <td>The devils language. Not sure how a real human being looked at all of these 'features' and thought 'yes, lets ship it'. 
+                The one redeeming factor is that some of the packages are quite whimsical (bless, croak).</td>
+        </tr>
+        <tr>
+            <td>Go</td>
+            <td>9</td>
+            <td>8</td>
+            <td>7</td>
+            <td>8</td>
+            <td>4</td>
+            <td>9</td>
+            <td>Clean and concise by default - my only complaint is that something like rust's '?' operator might be nice, since 'if err != nil {}' is littered all over the place.</td>
+        </tr>
 
 
 
@@ -188,7 +221,7 @@
 <br>
 <p>*To clarify experience, a 5 means im fairly familiar with the syntax/language patterns, and have used a variety of packages/imports (if applicable) - I could solve leetcodes in the language comfortably</p>
 <p>A 7 means I have used a large variety of different relevant imports (ie package for sockets, APIs, hosting)</p>
-<p>A 9 means I could probably (try to) solve any problem in the langauge with my given knowledge/experience of packages. Wether that problem should be solved in this language is a different question</p>
+<p>A 9 means I could probably (try to) solve any problem in the langauge with my given knowledge/experience of packages. Whether that problem should be solved in this language is a different question</p>
 <br>
 <p>**Syntax refers to how much sense it makes</p>
 

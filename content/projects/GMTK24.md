@@ -12,7 +12,7 @@ link = "https://anonyym0us.itch.io/reach-the-kittadel"
 
 ## The Premise
 
-The theme for the 4-day (though I worked one day) GMTK 2025 game jam was 'Built to Scale'. I, along with an artist friend (I am not _that_ talented) arrived on the idea of ***building*** your character to ***scale*** a tower.
+The theme for the 4-day (though I worked one day) GMTK 2025 game jam was 'Built to Scale'. I, along with an artist friend (I am not _that_ talented) arrived on the idea of _**building**_ your character to _**scale**_ a tower.
 
 We decided to go for something a bit silly and cute - a wizard cat fit the bill perfectly.
 
@@ -28,5 +28,5 @@ Speaking of spells, there are 4, and you choose 1 when you start. The options ar
 
 When casting a spell, you can hold down the cast button to overcast it, which increases the mana cost, up to a certain point (the max overcast is another stat that can be increased). Once a spell is cast, it will also temporarily decrease your max mana, meaning you may gain a big speed bonus, but wont be able to cast _as powerful_ of a black hole to clear your path.
 
-
 In a surprise to absolutely no-one, this being a game jam means the game is slightly poorly balanced for late game - your screen will literally just be filled with obstacles, and fairly quickly. Furthermore, you can span the haste spell for a much greater cumulative effect than what you would get for overcasting.
+
